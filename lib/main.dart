@@ -10,8 +10,7 @@ void main() => runApp(
         ),
         body: Center(
           child: Image(
-            image: NetworkImage(
-                'https://images.idgesg.net/images/article/2019/11/idg-post-9-image-1-100817461-large.jpg'),
+            image: AssetImage('images/diamond.png')
           ),
         ),
       )),
